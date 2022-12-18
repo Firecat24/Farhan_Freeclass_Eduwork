@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>looping javascript</title>
+
+</head>
+<body>
+    <script>
+        let halo = "ini for loop of"
+        for (let index = 0; index < 10; index++) {
+            document.write ("ini adalah for loop in ke - " + index + "<br>");
+            console.log ("ini adalah for loop in ke - " + index );
+        }
+        let text = "";
+        for (let x of halo) {
+            text += x;
+            document.write(text, "<br>")
+            console.log(text)
+        }
+        let a = 1
+        while (a <= 5) {
+            document.write("ini adalah while loop ",a, "<br>")
+            console.log("ini adalah while loop ",a)
+            a++;
+        }
+        let b = 1
+        while (b > 0) {
+            document.write("ini adalah while loop dengan break ",b, "<br>")
+            console.log("ini adalah while loop dengan break ",b)
+            if (b == 10) {
+                break;
+            }
+            b++;
+        } 
+    </script>
+</body>
+</html>

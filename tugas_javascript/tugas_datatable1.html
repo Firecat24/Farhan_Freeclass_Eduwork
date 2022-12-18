@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        tugas datatable 1
+    </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <table id="table" class="display">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>status</th>
+                <th>umur</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>farhan</td>
+                <td>Kuliah</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>biila</td>
+                <td>Kuliah</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>farel</td>
+                <td>SMA</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>iqbal</td>
+                <td>Kuliah</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script type="text/javascript">
+    $(document).ready( function () {
+        $('#table').DataTable();
+    } );
+</script>
+</html>

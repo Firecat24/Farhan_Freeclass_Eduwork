@@ -1,0 +1,41 @@
+.center {
+    height: 500px;
+    text-align:center;
+    padding-top: 170px;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(10, 48, 120);
+    padding: 4px;
+    text-align: center;
+    border-radius: 20px; 
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font{
+    font-style: italic;
+}
+.teks{
+    text-decoration: none;
+    color: black;
+}
+.padding{
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+.about{
+    text-align: justify;
+    width: 300px;
+}
+.gambar{
+    width: 50px;   
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+}

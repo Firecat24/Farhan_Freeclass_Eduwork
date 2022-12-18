@@ -1,0 +1,20 @@
+.kotak{
+    width:225px;
+    display: inline-block;
+    margin: 10px 20px 30px 0px;
+    background-color: rgb(248, 211, 107);
+    padding: 10px ;
+}
+.about{
+    text-align: center;
+    width: 200px;
+}
+.joo{
+    text-decoration:none; 
+    color: black; 
+    text-align: center;
+}
+.joo:hover{
+    color: blue;
+    text-decoration: underline;
+}

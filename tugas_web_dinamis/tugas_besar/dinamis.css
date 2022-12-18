@@ -1,0 +1,26 @@
+.joo{
+    text-decoration:none; 
+    color: black; 
+    text-align: center;
+}
+.joo:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.bg_image{
+    text-align: center;
+    padding-top: 150px;
+    vertical-align: middle;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://cdn.idntimes.com/content-images/duniaku/post/20191219/naruto-batu-hokage-4f61f5e7bff40e18aa549b8da13dab9c_600x400.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.gambar{
+    width: 80px;   
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
